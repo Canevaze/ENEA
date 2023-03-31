@@ -7,8 +7,10 @@ from sklearn.linear_model import LinearRegression
 from scipy.optimize import minimize
 from scipy.linalg import lstsq
 
+file_path = 'Downloads/lidar_cable_points_easy.parquet'  #replace this by your own file path
 
-file = pd.read_parquet('Downloads/lidar_cable_points_easy.parquet',engine='fastparquet')
+
+file = pd.read_parquet(file_path,engine='fastparquet')
 
 # Exact the columns as np array
 
