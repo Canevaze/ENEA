@@ -35,7 +35,7 @@ def plot3d(x,y,z, label=None):
 
 #plot3d(x,y,z)
 
-# Clustering function With K means
+# Clustering function With K means (we currently do not use it)
 
 def K_clustering(x,y,z, n_clusters=3):
 
